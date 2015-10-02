@@ -1,0 +1,107 @@
+/*Chris css edit*/
+.firstpage{
+
+	background: url(/bottles.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width: 100%;
+	margin:0 auto;
+	border: 1px solid red;
+	min-height: 775px;
+	min-width: 1024px;
+	padding:0px;
+	background-position: 50% 100%;
+
+
+}
+
+.navbar-cm{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	background-color:#171814;
+
+}
+
+ul.far-right-cm {
+    display: inline-flex;
+    float: right;
+}
+
+li {
+    margin-left: 30px;
+    color: silver;
+    font-family:
+}
+
+.banner{
+    margin-top: 181px;
+	border: 1px solid green;
+	height:300px;
+/*	position:;
+	left: 450px;
+	bottom:450px;*/
+	color:red;
+}
+
+.banner > h1{
+
+	height:250px;
+	font-weight: 400;
+	margin-left:508px;
+	font-size:76;
+}
+
+.far-right-cm > li{
+	display: block;
+	text-align: right;
+	text-decoration: none:;
+}
+
+ /* Victor's css edit*/
+#wrapper{
+    background-image:url(/bar_drinks.jpg);
+    background-size:cover;
+    height:600px;
+    width:100%;
+}
+#top{
+    height:100px;
+
+}
+.tittle{
+    color:white;
+    font-weight:light;
+    text-align:center;
+    height:20;
+    background-color:black;
+    margin:0px;
+}
+
+.bottom{
+    width:100px;
+}
+
+#check{
+    display:inline-block
+    position:absolute;
+}
+#email{
+    background-color: grey;
+    width: 400px;
+    height:300px;
+    display:inline-block;
+    position:absolute;
+    margin-left:-40%;
+}
+
+.field{
+    width: 400px;
+}
+
+#comment{
+    width: 400px;
+    height: 200px;
+}
