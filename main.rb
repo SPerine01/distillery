@@ -1,25 +1,27 @@
+require "sinatra"
 require "mandrill"
 
-def email_sent(the_message)
-
-	mandrill = Mandrill::API.new
-
-message = {  
-	:subject=> "Hello from the Mandrill API",
-	:from_name=> "Your name",  
-	:text=>"Hi message, how are you?",
-	:to=>[{:email=> "recipient@theirdomain.com", :name=> "Recipient1"}],
-
-	email_sent "New subscription to Distillery!"
-
-	puts sending
+def send_mail(params)
+    mail= Mandrill::API.new 
+    message = {  
+        :subject=> "customer ",  
+        :from_name=> params[:name],  
+        :text=>"ttt",  
+        :to=>[{:email=> "vt0826@gmail.com", 
+        :name=> "distillery"}],  
+        :html=>"<html><h1>#{params[:comment]} </h1></html>",                
+        :from_email=>"vt0826@hotmail.com"
+   }
+    sending = mail.messages.send message
+    puts sending
 end
 
-get "distillery" do
-	erb :distill
+
+get "/" do
+    erb:contact
 end
 
-get "contact" do 
-	erb :contact
-	email_sent params[ :]
-end 
+post "/contact_us" do
+   send_mail(params)
+end
+
