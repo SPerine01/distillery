@@ -1,0 +1,45 @@
+#wrapper{
+    background-image:url(/bar_drinks.jpg);
+    background-size:cover;
+    height:600px;
+    width:100%;
+}
+#top{
+    height:100px;
+
+}
+.tittle{
+    color:white;
+    font-weight:light;
+    text-align:center;
+    height:20;
+    background-color:black;
+    margin:0px;
+}
+
+.bottom{
+    width:100px;
+}
+
+#check{
+    display:inline-block
+    position:absolute;
+}
+#email{
+    background-color: grey;
+    width: 400px;
+    height:300px;
+    display:inline-block;
+    position:absolute;
+    margin-left:-40%;
+}
+
+.field{
+    width: 400px;
+}
+
+#comment{
+    width: 400px;
+    height: 200px;
+}
+
