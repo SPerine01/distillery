@@ -1,17 +1,24 @@
+* {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
 /*Chris css edit*/
 .firstpage{
-
 	background: url(/bottles.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	width: 100%;
 	margin:0 auto;
-	border: 1px solid red;
+	border: 1px solid black;
 	min-height: 775px;
 	min-width: 1024px;
 	padding:0px;
 	background-position: 50% 100%;
-
 
 }
 
@@ -21,7 +28,7 @@
 	position: absolute;
 	top: 0px;
 	left:0px;
-	background-color:#171814;
+/*	background-color:#171814;*/
 
 }
 
@@ -37,21 +44,26 @@ li {
 }
 
 .banner{
+/*    text-align: center;*/
     margin-top: 181px;
-	border: 1px solid green;
+/*	border: 1px solid green;*/
 	height:300px;
-/*	position:;
+	position:;
 	left: 450px;
-	bottom:450px;*/
+	bottom:450px;
 	color:red;
 }
 
 .banner > h1{
 
 	height:250px;
-	font-weight: 400;
+	font-weight: 550px;
 	margin-left:508px;
 	font-size:76;
+}
+
+.slogan {
+    font-style: italic;
 }
 
 .far-right-cm > li{
@@ -60,8 +72,48 @@ li {
 	text-decoration: none:;
 }
 
- /* Victor's css edit*/
+/*Sumayyah's css edit*/
+/*.service {
+    display: inline-table;
+    float: left;
+    margin: 0 auto;
+    clear: both;
+}*/
 
+
+.service {
+    width: 1200;
+    height: 400px;
+    margin-left: 200;
+    margin-top: 81px;
+}
+
+#whatis {
+    width: 300px;
+    display: inline-block;
+}
+
+#inMind {
+    width: 300px;
+    display: inline-block;
+}
+
+#covered {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    left: 24px;
+    bottom: 30px;
+}
+
+
+.gone{
+    display:none;
+}
+
+
+
+ /* Victor's css edit*/
 #wrapper{
     background-image:url(/bar_drinks.jpg);
     background-size:cover;
