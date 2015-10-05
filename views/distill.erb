@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Questrial|Radley' rel='stylesheet' type='text/css'>
 <script>
 $(document).ready(function(){
-	$(window).load(function(){
+	// $(window).load(function(){
 	$("#banner").fadeIn(4000);
 	});
 });	
@@ -17,17 +17,16 @@ $(document).ready(function(){
 </head>
 <body>
 
-<div=class="chris-edit">
+<div class="chris-edit">
 <body style="margin:0";>
 	
 
 	<header>
 		<div class="navbar-cm">
 			 <ul class="far-right-cm">
-			 	<li>About</li>
-			 	<li>List</li>
-			 	<li>Contact Us</li>
-			 	<li>Log In</li>
+			 	<li><a href="#about">About</a></li>
+			 	<li><a href="#pricing">Pricing</a></li>
+			 	<li><a href="#contacto">Contact Us</a></li>
 			 <ul>
 
 		</div>
@@ -50,7 +49,7 @@ $(document).ready(function(){
     <section>
      <!--About us-->
 
-
+     <a name ="about"></a> 
 <div class="service">
 
 	<div id="whatis">
@@ -70,9 +69,9 @@ $(document).ready(function(){
 		<p>Looking for a perfect bottle of Shiraz? Want to try a brand new IPA? Want to make a toast with the classics?</p>
 	</div>
 </div>
-
+       <a name ="pricing"></a>
 	<div class="pricing">
-		<h2>Pricing</h2>
+		<h2 id="slight-left">Pricing</h2>
 				<div class="weekly">
 					<h3>Bi-Weekly Pricing</h3>
 					<ul style="list-style-type:none">
@@ -197,17 +196,22 @@ $(document).ready(function(){
 
 
     <section>
+    	<a name="contacto"></a>
       <!--Contact-->
        <div id="wrapper">
+       	    <div class="contact">
+     			<h2 id="slide-right">Contact Us</h2>
+     				<p>Have some questions, suggestions or your just a fan of Distillery? Reach out to us. We'd love to hear from you!</p>
+     		</div>
         <div id="top">
         </div>
         <div id="email">
             <form method="POST" action="/contact_us">
-                <h3 class="tittle" > Name:</h3>
+                <h3 class="title" > Name:</h3>
                 <input class="field" type="text" name="name" value="your name"><br>
                 <h3 class="tittle">E-mail:</h3>
                 <input class="field" type="text" name="email" value="your email"><br>
-                <h3 class="tittle">YOUR ENQUIRY</h3>
+                <h3 class="tittle">YOUR INQUIRY</h3>
                 <textarea id="comment" name="comment"></textarea><br> 
                 <input class="bottom" type="submit" value="Send">
                 <input class="bottom" type="reset" value="Reset">
@@ -221,8 +225,8 @@ $(document).ready(function(){
     </div>
     <footer>
     <a href="http://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
-    <i class="fa fa-instagram"></i>
-    <p>Please drink responsibly.</p>
+    <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    <p class="responsible">Please drink responsibly.</p>
     </footer>
         <script> 
             $(document).ready(function(){

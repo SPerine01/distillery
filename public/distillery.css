@@ -51,7 +51,7 @@ li {
 	position:;
 	left: 450px;
 	bottom:450px;
-	color:red;
+    font-size: 50px;
 }
 
 .banner > h1{
@@ -64,6 +64,9 @@ li {
 
 .slogan {
     font-style: italic;
+    text-align: center;
+    color: rgb(162, 3, 3);
+    font-size: 27px;
 }
 
 .far-right-cm > li{
@@ -86,11 +89,13 @@ li {
     height: 400px;
     margin-left: 200;
     margin-top: 81px;
+    margin-bottom: -54px;
 }
 
 #whatis {
     width: 300px;
     display: inline-block;
+    padding-right: 30px;
 }
 
 #inMind {
@@ -106,11 +111,47 @@ li {
     bottom: 30px;
 }
 
-
-.gone{
+.gone {
     display:none;
 }
 
+
+.contact {
+    text-align: right;
+}
+
+.contact > h2 {
+    text-align: right;
+}
+
+
+.alcoholist {
+    text-align: center;
+}
+
+.alcoholist, li {
+    color: rgb(130, 25, 25);
+    margin-right: 69px;
+}
+
+.pricing {
+    margin-bottom: 177px;
+}
+
+#slight-left {
+    text-align: center;
+    padding-right: 38px;
+}
+
+.weekly {
+    float: left;
+    display: block;
+}
+
+.monthly {
+    display: block;
+    float: right;
+}
 
 
  /* Victor's css edit*/
@@ -120,17 +161,20 @@ li {
     height:600px;
     width:100%;
 }
+
 #top{
     height:100px;
 
 }
-.tittle{
+
+.title{
     color:white;
     font-weight:light;
     text-align:center;
     height:20;
     background-color:black;
     margin:0px;
+    text-align: left;
 }
 
 .bottom{
@@ -142,7 +186,7 @@ li {
     position:absolute;
 }
 #email{
-    background-color: grey;
+    background-color: black;
     width: 400px;
     height:300px;
     display:inline-block;
@@ -152,11 +196,21 @@ li {
 
 .field{
     width: 400px;
+    color: black;
 }
 
 #comment{
     width: 400px;
     height: 200px;
+    color: black;
 }
+
+.responsible {
+    margin: 0 auto;
+    width: 20%;
+    display:inline-block
+    position:absolute;
+}
+
 
 
