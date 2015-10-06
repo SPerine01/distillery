@@ -7,178 +7,181 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Questrial|Radley' rel='stylesheet' type='text/css'>
+<!--    <script>
+   
+$(document).ready(function(){
+	// $(window).load(function(){
+	$("#banner").fadeIn(4000);
+	});
+});	
+</script>
+--!>
 </head>
 <body>
+<div class="chris-edit">
+         <body style="margin:0";>
 
-<div=class="chris-edit">
-<body style="margin:0";>
-	
 	<header>
 		<div class="navbar-cm">
 			 <ul class="far-right-cm">
-			 	<li>About</li>
-			 	<li>List</li>
-			 	<li>Contact Us</li>
-			 	<li>Log In</li>
+                <li id=><a href="#about">About</a></li>
+			 	<li><a href="#pricing">Pricing</a></li>
+			 	<li><a href="#wrapper">Contact Us</a></li>
 			 <ul>
-
 		</div>
 	</header>
-
 	
     <section class="firstpage">
-     
-     <div class="banner">
-     	<h1 font size"16">Distillery</h1>
-     </div>
+        <div class="banner">
+     	    <h1 id="banner" font size"16">Distillery</h1>
+        </div>
 
-	 <div class"first-wrapper"></div>
-  
+        <div class="slogan">Satisfy Yourself.</div>
+	    <div class"first-wrapper"></div>
     </section>
 
-
     <section>
-     <!--About us-->
-<div class="service">
-		<h2>What is Distillery?</h2>
-		<p>Distillery is a delivery service for beer, spirits, liqueurs and more. You choose what you want, we deliver where you want.</p>
-
-		<h2>We Keep You in Mind</h2>
-		<p>We have a multitude of different brands for palate. We have bi-weekly and monthly plans that suit you. We'll also send you recipes, suggestions and tips to make your experience even better.</p>
-
-		<h2>We've Got You Covered</h2>
-		<p>Looking for a perfect bottle of Shiraz? Want to try a brand new IPA? Want to make a toast with the classics?</p>
-	</div>
-
-	<div class="pricing">
-		<h2>Pricing</h2>
-				<div class="weekly">
-					<h3>Bi-Weekly Pricing</h3>
-					<ul style="list-style-type:none">
-						<li>Two Bottles</li>
-						<li>$48.95</li>
-					</ul>
-				</div>	
-
-				<div class="monthly">
-					<h3>Monthly Pricing</h3>
-					<ul style="list-style-type:none">
-						<li>Five Bottles</li>
-						<li>$129.95</li>
-					</ul>
-				</div>	
-	</div>
+    <!--About us-->
+        <a name ="about"></a> 
+        <div class="service">
+            <div id="whatis">
+		        <h2>What is Distillery?</h2>
+                <p>Distillery is a delivery service for beer, spirits, liqueurs and more. You choose what you want, we deliver where you want.</p>
+	        </div>
+            <div id="inMind">
+		        <h2>We Keep You in Mind</h2>
+		        <p>We have a multitude of different brands for palate. We have bi-weekly and monthly plans that suit you. We'll also send you recipes, suggestions and tips to make your experience even better.</p>
+	        </div>
+	        <div id="covered">
+		        <h2>We've Got You Covered</h2>
+		        <p>Looking for a perfect bottle of Shiraz? Want to try a brand new IPA? Want to make a toast with the classics?</p>
+	        </div>
+        </div>
+        <a name ="pricing"></a>
+	    <div class="pricing">
+	        <h2 id="slight-left">Pricing</h2>
+	        <div class="weekly">
+		        <h3>Bi-Weekly Pricing</h3>
+			    <ul style="list-style-type:none">
+				    <li>Two Bottles</li>
+				    <li>$48.95</li>
+			    </ul>
+		    </div>	
+            <div class="monthly">
+			    <h3>Monthly Pricing</h3>
+			    <ul style="list-style-type:none">
+				    <li>Five Bottles</li>
+				    <li>$129.95</li>
+			    </ul>
+		    </div>	
+        </div>
     </section>
 
     <section>
     	<!--Liquor List-->
     	<div class="alcoholist">
+            <h2>Satisfy Yourself</h2>
 
-	<h2>Satisfy Yourself</h2>
+            <div class="beer">
+	            <h4>Beer</h4>
+		            <ul style="list-style-type:none">
+			            <li>Ale</li>
+			            <li>Lager</li>
+			            <li>Malt</li>
+			            <li>Porter</li>
+			            <li>Stout</li>
+		            </ul>
+            </div>
+            <div>
+	            <h4>Brandy</h4>
+	                <ul style="list-style-type:none">
+		                <li>Cognac</li>
+		                <li>Armagnac</li>
+	                </ul>
+            </div>
 
-<div class="beer">
-	<h4>Beer</h4>
-		<ul style="list-style-type:none">
-			<li>Ale</li>
-			<li>Lager</li>
-			<li>Malt</li>
-			<li>Porter</li>
-			<li>Stout</li>
-		</ul>
-</div>
+            <div class="rum">
+	            <h4>Rum</h4>
+		            <ul style="list-style-type:none">
+			            <li>Light</li>
+		            	<li>Gold</li>
+			            <li>Dark</li>
+			            <li>Spiced</li>
+			            <li>Flavored</li>
+			            <li>Overproof</li>
+			            <li>Premium</li>
+		            </ul>
+            </div>
 
-<div>
-	<h4>Brandy</h4>
-	<ul style="list-style-type:none">
-		<li>Cognac</li>
-		<li>Armagnac</li>
-	</ul>
-</div>
+            <div class="tequila">
+	            <h4>Tequila</h4>
+		            <ul style="list-style-type:none">
+			            <li>Gold</li>
+			            <li>Silver</li>
+			            <li>Reposado</li>
+			            <li>Añejo</li>
+			            <li>Extra Añejo</li>
+		            </ul>
+            </div>
 
-<div class="rum">
-	<h4>Rum</h4>
-		<ul style="list-style-type:none">
-			<li>Light</li>
-			<li>Gold</li>
-			<li>Dark</li>
-			<li>Spiced</li>
-			<li>Flavored</li>
-			<li>Overproof</li>
-			<li>Premium</li>
-		</ul>
-</div>
+            <div class= "whiskey">
+	            <h4>Whiskey</h4>
+		        <ul style="list-style-type:none">
+			        <li>Bourbon</li>
+			        <li>Irish Whiskey</li>
+			        <li>Malt</li>
+			        <li>Rye</li>
+	        		<li>Scotch</li>
+        			<li>Tennessee Whiskey</li>
+        		</ul>
+            </div>
 
-<div class="tequila">
-	<h4>Tequila</h4>
-		<ul style="list-style-type:none">
-			<li>Gold</li>
-			<li>Silver</li>
-			<li>Reposado</li>
-			<li>Añejo</li>
-			<li>Extra Añejo</li>
-		</ul>
-</div>
 
-<div class= "whiskey">
-	<h4>Whiskey</h4>
-		<ul>
-			<li>Bourbon</li>
-			<li>Irish Whiskey</li>
-			<li>Malt</li>
-			<li>Rye</li>
-			<li>Scotch</li>
-			<li>Tennessee Whiskey</li>
-		</ul>
-</div>
+            <div class="wine">
+            	<h4>Wine</h4>
+                <ul style="list-style-type:none">
+    	            <div class="red">
+        	            <li class="gone">Reds
+	    	                <ul style="list-style-type:none">
+			                	<li>Cabernet Sauvignon</li>
+			                	<li>Malbec</li>
+			                	<li>Merlot</li>
+			                	<li>Pinot Noir</li>
+			                	<li>Shiraz</li>
+			                	<li>Zinfandel</li>
+		                	</ul>
+                		</li>
+	            	</div>
+                    <div class="white">
+		                <li class="gone">Whites
+			                <ul style="list-style-type:none">
+				                <li>Chardonnay</li>
+		                		<li>Riesling</li>
+		                		<li>Pinot Grigio</li>
+		                		<li>Moscato</li>
+		                		<li>Sauvignon Blanc</li>
+	                			<li>Semillon</li>
+	                		</ul>
+		                </li>
+	            	</div>
+            	</ul>
+            </div>
 
-<div class="wine">
-	<h4>Wine</h4>
-	<ul style="list-style-type:none">
-		<div class="red">
-		<li>Reds
-			<ul>
-				<li>Cabernet Sauvignon</li>
-				<li>Malbec</li>
-				<li>Merlot</li>
-				<li>Pinot Noir</li>
-				<li>Shiraz</li>
-				<li>Zinfandel</li>
-			</ul>
-		</li>
-		</div>
+            <div class="vodka">
+	            <h4>Vodka</h4>
+            </div>
 
-		<div class="white">
-		<li>Whites
-			<ul>
-				<li>Chardonnay</li>
-				<li>Riesling</li>
-				<li>Pinot Grigio</li>
-				<li>Moscato</li>
-				<li>Sauvignon Blanc</li>
-				<li>Semillon</li>
-			</ul>
-		</li>
-		</div>
-	</ul>
-</div>
-
-<div class="vodka">
-	<h4>Vodka</h4>
-</div>
-
-<div class="liqueurs">
-	<h4>Liqueurs</h4>
-</div>
-
-</div>
+            <div class="liqueurs">
+	            <h4>Liqueurs</h4>
+            </div>
     </section>
-     
     <section>
-      <!--Contact-->
-       <div id="wrapper">
-        <div id="top">
-        </div>
+        <div id="wrapper">
+            <div id="top">
+            </div>
         <div id="email">
             <form method="POST" action="/contact_us">
                 <div id="col-1-form">
@@ -219,7 +222,8 @@
             <a id="nav-toggle" ><span></span></a>
         </div>
     </div>
-    
+    </section>    
+</div>
     <footer>
         <div id="foot">
             <ul>
@@ -231,14 +235,14 @@
         </div>
         <div id="vic-left">
             <ul>
-                <li>90 John's st #404</li>
-                <li>New York, NY 10038</li>
-                <li> (212) 571-7400<li>
+                <li class="address">90 John's st #404</li>
+                <li class="address">New York, NY 10038</li>
+                <li class="address"> (212) 571-7400<li>
             </ul>
         </div>
 
         <div id="vic-up">
-            <p ><a href="/distillery"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></p>
+            <p ><a class = "vic-a" href="/distillery"><span class= "glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></p>
             <p id="scroll-top">SCROLL TO TOP</p>
         </div>
         <div id="vic-right">
@@ -276,8 +280,6 @@
             }
             setInterval(blinker, 500);
     </script>
-    </section>
-
 </body>
 
 </html>
